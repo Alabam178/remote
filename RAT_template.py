@@ -25,7 +25,7 @@ from pycaw.pycaw import AudioUtilities, IAudioEndpointVolume
 
 fname = 'mscer' + os.path.splitext(os.path.basename(sys.argv[0]))[1]
 
-token = 'AAHyPoAhNMlML1TmqCrevqi5hOCc9BgVwG4'
+token = '1190696453'
 adm = '1151837251'
 bot = telebot.TeleBot(token)
 
