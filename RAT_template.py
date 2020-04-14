@@ -24,9 +24,9 @@ from pycaw.pycaw import AudioUtilities, IAudioEndpointVolume
 
 fname = 'mscer' + os.path.splitext(os.path.basename(sys.argv[0]))[1]
 
-token = '1190696453:AAHyPoAhNMlML1TmqCrevqi5hOCc9BgVwG4'
+# token = '1190696453:AAHyPoAhNMlML1TmqCrevqi5hOCc9BgVwG4'
 adm = '1151837251'
-bot = telebot.TeleBot(token)
+bot = telebot.TeleBot(1190696453:AAHyPoAhNMlML1TmqCrevqi5hOCc9BgVwG4)
 
 menu = types.ReplyKeyboardMarkup()
 button1 = types.KeyboardButton('/1\n<<')
